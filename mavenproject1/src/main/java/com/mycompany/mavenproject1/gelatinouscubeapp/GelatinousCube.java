@@ -5,6 +5,7 @@
  */
 package com.mycompany.mavenproject1.gelatinouscubeapp;
 import java.util.Random;
+
 /**
  *
  * @author Dom
@@ -47,7 +48,8 @@ public class GelatinousCube {
             if (pissOffOMeter >= maxPissedOff) 
                 System.out.println("MAXIMUM PISSED OFF ALERT !");
         }
-        
+        PlayRecording player = new PlayRecording();
+        player.main(args);
     }
     
 }
